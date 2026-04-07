@@ -1,4 +1,4 @@
-import { Globe, Bot, Funnel, BarChart, Workflow, Mail } from 'lucide-react'
+import { Globe, Bot, Filter, BarChart, Workflow, Mail } from 'lucide-react'
 
 const services = [
   {
@@ -18,7 +18,7 @@ const services = [
     items: ['Respuestas en <2 minutos', 'Calificación automática de leads', 'Integración WhatsApp y web', 'Aprendizaje continuo'],
   },
   {
-    icon: <Funnel size={22} />,
+    icon: <Filter size={22} />,
     color: 'amber',
     tag: 'Captación',
     title: 'Sistema de Captación de Leads',
